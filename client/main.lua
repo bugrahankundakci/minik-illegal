@@ -116,7 +116,7 @@ end)
 
 TriggerEvent('QBCore:GetObject', function(obj) QBCore = obj end)
 
--- Ped spawn etme
+
 local pedInfo = {
     model = 'a_m_m_business_01',
     coords = vector4(2221.75, 5614.78, 54.9, 105.91),
@@ -156,10 +156,10 @@ AddEventHandler('qb-pedmenu:client:openMenu', function()
         submitText = "Satış Yap",
         inputs = {
             {
-                text = "Satılacak Joint Miktarı", -- Text above the input
-                name = "amount", -- Name of the input
-                type = "number", -- The type of the input
-                isRequired = true -- true or false (required or not)
+                text = "Satılacak Joint Miktarı",
+                name = "amount",
+                type = "number",
+                isRequired = true
             }
         }
     })
