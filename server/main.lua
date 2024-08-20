@@ -42,7 +42,7 @@ AddEventHandler('minik-illegals:sellJointToPed', function(amount)
 end)
 
 
--- Joint satışı
+
 RegisterNetEvent('qb-pedmenu:server:sellJoint')
 AddEventHandler('qb-pedmenu:server:sellJoint', function(amount)
     local src = source
